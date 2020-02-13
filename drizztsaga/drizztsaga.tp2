@@ -5,6 +5,7 @@
  v1 initial WeiDU conversion and tp2 code by pro5
  v2 by Badgert and erebusant
  v3 BGEE update by pro5
+ v3.01 EET update, PVRZ update
  
 ------------------------------------------------------------------------------------------------------------- */
 
@@ -12,7 +13,7 @@
 BACKUP ~DRIZZTSAGA/backup~
 
 AUTHOR ~flysoup, http://forums.blackwyrmlair.net/index.php?showforum=103~
-VERSION ~v3.00~
+VERSION ~v3.01~
 README ~DRIZZTSAGA\ReadMe.htm~
 
 ASK_EVERY_COMPONENT
@@ -125,6 +126,10 @@ MAKE_BIFF DZTS-ARE BEGIN
 	~DRIZZTSAGA/ARE-DATA~ ~F_.*SR\.BMP~
 END
 
+ACTION_IF GAME_IS ~BGEE~ BEGIN
+COPY ~DRIZZTSAGA/Tis~ ~override~
+END
+
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 //// BP–BGT Worldmap version: access all new areas through worldmap /////////////////////////////////
@@ -211,6 +216,9 @@ MAKE_BIFF DZTS-ARE BEGIN
 	~DRIZZTSAGA/ARE-DATA~ ~F_.*SR\.BMP~
 END
 
+ACTION_IF GAME_IS ~BGEE~ BEGIN
+COPY ~DRIZZTSAGA/Tis~ ~override~
+END
 
 ///////////////////////////////////////////////////////////////////
 //// XP cap patching - now an optional component //////////////////
