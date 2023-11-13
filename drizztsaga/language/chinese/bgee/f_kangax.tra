@@ -1,0 +1,9 @@
+// This file uses UTF8 encoding. Any edits of this file must preserve this encoding for BGEE compatibility
+
+// Strings in this file are identical to those in the non-BGEE version, no additional translation needed.
+
+// #KANGAXX translation file
+@1 = ~愚蠢的耐色瑞尔法师，以为他们可以囚禁康葛斯！他们现在以不死者的身份居住在黑暗中，这也将是你们这群可怜的冒险者的回报。~ [%tutu_scripts%HAEL_01]
+@2 = ~这是什么鬼把戏！？~
+@3 = ~你会在这里跌倒！~ [%tutu_scripts%HAEL_03]
+

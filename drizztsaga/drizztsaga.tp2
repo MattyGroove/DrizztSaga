@@ -8,6 +8,7 @@
  v3.01 EET update, PVRZ update
  v3.02 No mandatory party, SoD compatibility added
  v3.03 Graphic Updates
+ v3.04 chinese translation
  
 ------------------------------------------------------------------------------------------------------------- */
 
@@ -15,7 +16,7 @@
 BACKUP ~DRIZZTSAGA/backup~
 
 AUTHOR ~flysoup, http://forums.blackwyrmlair.net/index.php?showforum=103~
-VERSION ~v3.03~
+VERSION ~v3.04~
 
 ASK_EVERY_COMPONENT
 
@@ -77,6 +78,7 @@ LANGUAGE ~Italian~								~italian~	 ~DRIZZTSAGA/Language/Italian/setup.tra~
 LANGUAGE ~Polish~								~polish~	 ~DRIZZTSAGA/Language/Polish/setup.tra~	 
 LANGUAGE ~Russian~								~russian~	 ~DRIZZTSAGA/Language/Russian/setup.tra~
 LANGUAGE ~Spanish~								~spanish~	 ~DRIZZTSAGA/Language/Spanish/setup.tra~
+LANGUAGE ~chinese~								~chinese~	 ~DRIZZTSAGA/Language/chinese/setup.tra~
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
